@@ -1,0 +1,19 @@
+.header__lang-link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  text-align: right;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.header__lang-link:hover {
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 424px) {
+  .header__lang-link {
+    font-size: 18px;
+  }
+}
+
